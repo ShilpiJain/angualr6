@@ -7,6 +7,7 @@ import { CoreComponent } from './core/core.component';
 import { CustomerComponent } from './customer/customer.component';
 import { CustomersComponent } from './customers/customers.component';
 import { OrdersComponent } from './orders/orders.component';
+import { NavComponent } from './core/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { OrdersComponent } from './orders/orders.component';
     CoreComponent,
     CustomerComponent,
     CustomersComponent,
-    OrdersComponent
+    OrdersComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule
