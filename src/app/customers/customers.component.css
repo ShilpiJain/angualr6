@@ -1,0 +1,18 @@
+header h3{
+  font-size: 31px;
+  color: #444;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+  font-size: 20px;
+    font-family: sans-serif;
+    padding: 0px 10px;
+     width: 176px;
+    display: block;
+}

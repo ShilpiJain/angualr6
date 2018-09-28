@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'customers', component: CustomersComponent },
   { path: 'order', component: OrdersComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'customer', component: CustomerComponent },
+  { path: 'customer', component: CustomerComponent }
 ];
 
 export class RoutingModule { }

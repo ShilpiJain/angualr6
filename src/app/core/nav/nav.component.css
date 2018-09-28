@@ -1,12 +1,11 @@
-nav{
+header{
   background: #4e4d4d;
   padding: 10px 0px;
 }
 nav ul li a{
     color: #e8e8e8;
     text-decoration: none;
-    font-family: fantasy;
-    padding: 1px 50px;
+     padding: 1px 50px;
 }
 nav ul{
   padding: 0px;
@@ -16,10 +15,10 @@ nav ul li{
   display: inline-block;
 }
 .logo p{
-    margin: 0px;
-    min-width: 100px;
-    float: left;
-    color: #fff;
-    padding: 7px 40px;
-    font-size: 20px;
+  margin: 0px;
+  min-width: 100px;
+  float: left;
+  color: #fff;
+   font-size: 20px;
+  line-height: 15px;
 }

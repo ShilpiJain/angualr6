@@ -11,3 +11,11 @@ footer p{
     text-align: center;
     color: #545454;
 }
+.container{
+  width: 1024px;
+  margin: auto;
+}
+
+.container-fluid{
+  width: 100%;
+}
