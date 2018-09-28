@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { routingModule } from './routing/routing'
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -20,7 +21,7 @@ import { NavComponent } from './core/nav/nav.component';
     NavComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,routingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
