@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { routingModule } from './routing/routing'
-
+// import { CustomersModule } from './customers/customers.module'
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { CoreComponent } from './core/core.component';
@@ -19,6 +19,7 @@ import { NavComponent } from './core/nav/nav.component';
     CustomersComponent,
     OrdersComponent,
     NavComponent
+    // CustomersModule
   ],
   imports: [
     BrowserModule,routingModule
