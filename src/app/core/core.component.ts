@@ -11,5 +11,5 @@ export class CoreComponent implements OnInit {
 
   ngOnInit() {
   }
-
+    tittle =  "Core works!";
 }

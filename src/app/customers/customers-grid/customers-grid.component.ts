@@ -11,5 +11,5 @@ export class CustomersGridComponent implements OnInit {
 
   ngOnInit() {
   }
-
+    console.log("grid");
 }
