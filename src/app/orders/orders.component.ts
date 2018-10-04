@@ -11,5 +11,5 @@ export class OrdersComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  tittle ="Orders Details"
 }

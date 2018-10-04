@@ -19,5 +19,12 @@
         </li>
       </ul>
     </nav>
+       <app-customer-card [hidden]="activeMode!=displayModeEnum.Card">
+      </app-customer-card>
+      <app-customer-grid [hidden]="activeMode!=displayModeEnum.List">
+      </app-customer-grid>
+      <app-customer-map [hidden]="activeMode!=displayModeEnum.Map">
+      </app-customer-map>
+      
   </div>
 </div>

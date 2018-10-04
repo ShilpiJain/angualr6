@@ -1,0 +1,38 @@
+.col-md-4{
+  width: 33.33%;
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+.card{
+  border: 1px solid #a5a5a5;
+  display: block;
+  border-radius: 7px;
+}
+.card-header{
+    background: #197b9a;
+    padding: 4px;
+}
+.card-header label a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-header label:last-child{
+  float: right;
+}
+
+.card-body label:first-child{
+  float: left;
+}
+.card-body span{
+  float: right;
+}
+.card-body a{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 6px 0;
+  text-decoration: none;
+}

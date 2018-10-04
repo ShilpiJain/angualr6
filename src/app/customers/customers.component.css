@@ -10,9 +10,10 @@ nav ul li{
     display: inline-block;
 }
 nav ul li a {
-  font-size: 20px;
+   font-size: 20px;
     font-family: sans-serif;
     padding: 0px 10px;
      width: 176px;
     display: block;
+    cursor: pointer;
 }
