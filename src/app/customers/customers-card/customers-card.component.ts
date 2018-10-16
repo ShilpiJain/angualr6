@@ -12,5 +12,5 @@ export class CustomersCardComponent implements OnInit {
   ngOnInit() {
   }
   tittle ="Customer Card";
-  console.log("card");
+  
 }
