@@ -11,5 +11,5 @@ export class CustomersMapComponent implements OnInit {
 
   ngOnInit() {
   }
-  console.log("map");
+
 }
